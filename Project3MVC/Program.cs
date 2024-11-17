@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<Proj3Context>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("PostsContext")));
+builder.Services.AddDbContext<Proj3Context>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("Project3")));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
