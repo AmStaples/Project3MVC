@@ -22,6 +22,9 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+app.MapControllerRoute(
+    name: "forum",
+    pattern: "{controller=Home}/{action=Forum}/{ForumId}");
 
 app.MapControllerRoute(
     name: "default",

@@ -1,5 +1,6 @@
 html {
   font-size: 14px;
+  color:white;
 }
 
 @media (min-width: 768px) {
@@ -12,6 +13,14 @@ html {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
+div {
+
+}
+
+.col {
+    border:1px solid green;
+}
+
 html {
   position: relative;
   min-height: 100%;
@@ -19,4 +28,5 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color:black;
 }
